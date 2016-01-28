@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07BC12EE1C59D44F00BC7F1C /* AvgTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07BC12BE1C59D44F00BC7F1C /* AvgTree.cpp */; };
+		07BC12EF1C59D44F00BC7F1C /* BBSRTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07BC12C11C59D44F00BC7F1C /* BBSRTree.cpp */; };
+		07BC12F01C59D44F00BC7F1C /* BinomialBSTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07BC12C31C59D44F00BC7F1C /* BinomialBSTree.cpp */; };
+		07BC12F11C59D44F00BC7F1C /* BinomialTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07BC12C51C59D44F00BC7F1C /* BinomialTree.cpp */; };
+		07BC12F21C59D44F00BC7F1C /* BS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07BC12C81C59D44F00BC7F1C /* BS.cpp */; };
+		07BC12F31C59D44F00BC7F1C /* cholesky.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07BC12CA1C59D44F00BC7F1C /* cholesky.cpp */; };
+		07BC12F41C59D44F00BC7F1C /* csv2vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07BC12CD1C59D44F00BC7F1C /* csv2vector.cpp */; };
+		07BC12F51C59D44F00BC7F1C /* DiscreteDivdBT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07BC12CF1C59D44F00BC7F1C /* DiscreteDivdBT.cpp */; };
+		07BC12F61C59D44F00BC7F1C /* iterative_solver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07BC12D81C59D44F00BC7F1C /* iterative_solver.cpp */; };
+		07BC12F71C59D44F00BC7F1C /* LinearCongRand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07BC12DA1C59D44F00BC7F1C /* LinearCongRand.cpp */; };
+		07BC12F81C59D44F00BC7F1C /* lu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07BC12DC1C59D44F00BC7F1C /* lu.cpp */; };
+		07BC12F91C59D44F00BC7F1C /* MCEuro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07BC12DF1C59D44F00BC7F1C /* MCEuro.cpp */; };
+		07BC12FA1C59D44F00BC7F1C /* simple_MCbasket_option.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07BC12E31C59D44F00BC7F1C /* simple_MCbasket_option.cpp */; };
+		07BC12FB1C59D44F00BC7F1C /* TBSRTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07BC12E51C59D44F00BC7F1C /* TBSRTree.cpp */; };
+		07BC12FC1C59D44F00BC7F1C /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07BC12E71C59D44F00BC7F1C /* test.cpp */; };
+		07BC12FD1C59D44F00BC7F1C /* TrinomialBSTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07BC12E81C59D44F00BC7F1C /* TrinomialBSTree.cpp */; };
+		07BC12FE1C59D44F00BC7F1C /* TrinomialTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07BC12EA1C59D44F00BC7F1C /* TrinomialTree.cpp */; };
+		07BC12FF1C59D44F00BC7F1C /* vec2csv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07BC12EC1C59D44F00BC7F1C /* vec2csv.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		07A303511C59D2CE00357DC2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		07A303531C59D2CE00357DC2 /* Qlib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Qlib; sourceTree = BUILT_PRODUCTS_DIR; };
+		07BC12BE1C59D44F00BC7F1C /* AvgTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AvgTree.cpp; sourceTree = "<group>"; };
+		07BC12BF1C59D44F00BC7F1C /* AvgTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvgTree.h; sourceTree = "<group>"; };
+		07BC12C01C59D44F00BC7F1C /* basic_option.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = basic_option.h; sourceTree = "<group>"; };
+		07BC12C11C59D44F00BC7F1C /* BBSRTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BBSRTree.cpp; sourceTree = "<group>"; };
+		07BC12C21C59D44F00BC7F1C /* BBSRTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSRTree.h; sourceTree = "<group>"; };
+		07BC12C31C59D44F00BC7F1C /* BinomialBSTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinomialBSTree.cpp; sourceTree = "<group>"; };
+		07BC12C41C59D44F00BC7F1C /* BinomialBSTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinomialBSTree.h; sourceTree = "<group>"; };
+		07BC12C51C59D44F00BC7F1C /* BinomialTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinomialTree.cpp; sourceTree = "<group>"; };
+		07BC12C61C59D44F00BC7F1C /* BinomialTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinomialTree.h; sourceTree = "<group>"; };
+		07BC12C71C59D44F00BC7F1C /* BoxMuller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxMuller.h; sourceTree = "<group>"; };
+		07BC12C81C59D44F00BC7F1C /* BS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BS.cpp; sourceTree = "<group>"; };
+		07BC12C91C59D44F00BC7F1C /* BS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BS.h; sourceTree = "<group>"; };
+		07BC12CA1C59D44F00BC7F1C /* cholesky.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cholesky.cpp; sourceTree = "<group>"; };
+		07BC12CB1C59D44F00BC7F1C /* cholesky.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cholesky.h; sourceTree = "<group>"; };
+		07BC12CC1C59D44F00BC7F1C /* cout_vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cout_vector.h; sourceTree = "<group>"; };
+		07BC12CD1C59D44F00BC7F1C /* csv2vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = csv2vector.cpp; sourceTree = "<group>"; };
+		07BC12CE1C59D44F00BC7F1C /* csv2vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = csv2vector.h; sourceTree = "<group>"; };
+		07BC12CF1C59D44F00BC7F1C /* DiscreteDivdBT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DiscreteDivdBT.cpp; sourceTree = "<group>"; };
+		07BC12D01C59D44F00BC7F1C /* DiscreteDivdBT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscreteDivdBT.h; sourceTree = "<group>"; };
+		07BC12D11C59D44F00BC7F1C /* FDBSAmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDBSAmer.h; sourceTree = "<group>"; };
+		07BC12D21C59D44F00BC7F1C /* FDBSBarrier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDBSBarrier.h; sourceTree = "<group>"; };
+		07BC12D31C59D44F00BC7F1C /* FDBSEuro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDBSEuro.h; sourceTree = "<group>"; };
+		07BC12D41C59D44F00BC7F1C /* FDHeatPDE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDHeatPDE.h; sourceTree = "<group>"; };
+		07BC12D51C59D44F00BC7F1C /* FDHeatPDEConstr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDHeatPDEConstr.h; sourceTree = "<group>"; };
+		07BC12D61C59D44F00BC7F1C /* FDImpliedVol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDImpliedVol.h; sourceTree = "<group>"; };
+		07BC12D71C59D44F00BC7F1C /* inv_cdf_normal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inv_cdf_normal.h; sourceTree = "<group>"; };
+		07BC12D81C59D44F00BC7F1C /* iterative_solver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = iterative_solver.cpp; sourceTree = "<group>"; };
+		07BC12D91C59D44F00BC7F1C /* iterative_solver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iterative_solver.h; sourceTree = "<group>"; };
+		07BC12DA1C59D44F00BC7F1C /* LinearCongRand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinearCongRand.cpp; sourceTree = "<group>"; };
+		07BC12DB1C59D44F00BC7F1C /* LinearCongRand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinearCongRand.h; sourceTree = "<group>"; };
+		07BC12DC1C59D44F00BC7F1C /* lu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lu.cpp; sourceTree = "<group>"; };
+		07BC12DD1C59D44F00BC7F1C /* lu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lu.h; sourceTree = "<group>"; };
+		07BC12DE1C59D44F00BC7F1C /* MCBarrier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCBarrier.h; sourceTree = "<group>"; };
+		07BC12DF1C59D44F00BC7F1C /* MCEuro.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCEuro.cpp; sourceTree = "<group>"; };
+		07BC12E01C59D44F00BC7F1C /* MCEuro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCEuro.h; sourceTree = "<group>"; };
+		07BC12E11C59D44F00BC7F1C /* normal_distribution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = normal_distribution.h; sourceTree = "<group>"; };
+		07BC12E21C59D44F00BC7F1C /* Secant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Secant.h; sourceTree = "<group>"; };
+		07BC12E31C59D44F00BC7F1C /* simple_MCbasket_option.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = simple_MCbasket_option.cpp; sourceTree = "<group>"; };
+		07BC12E41C59D44F00BC7F1C /* simple_MCbasket_option.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simple_MCbasket_option.h; sourceTree = "<group>"; };
+		07BC12E51C59D44F00BC7F1C /* TBSRTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TBSRTree.cpp; sourceTree = "<group>"; };
+		07BC12E61C59D44F00BC7F1C /* TBSRTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBSRTree.h; sourceTree = "<group>"; };
+		07BC12E71C59D44F00BC7F1C /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		07BC12E81C59D44F00BC7F1C /* TrinomialBSTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TrinomialBSTree.cpp; sourceTree = "<group>"; };
+		07BC12E91C59D44F00BC7F1C /* TrinomialBSTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrinomialBSTree.h; sourceTree = "<group>"; };
+		07BC12EA1C59D44F00BC7F1C /* TrinomialTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TrinomialTree.cpp; sourceTree = "<group>"; };
+		07BC12EB1C59D44F00BC7F1C /* TrinomialTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrinomialTree.h; sourceTree = "<group>"; };
+		07BC12EC1C59D44F00BC7F1C /* vec2csv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vec2csv.cpp; sourceTree = "<group>"; };
+		07BC12ED1C59D44F00BC7F1C /* vec2csv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vec2csv.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07A303501C59D2CE00357DC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07A3034A1C59D2CE00357DC2 = {
+			isa = PBXGroup;
+			children = (
+				07A303551C59D2CE00357DC2 /* Qlib */,
+				07A303541C59D2CE00357DC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07A303541C59D2CE00357DC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07A303531C59D2CE00357DC2 /* Qlib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07A303551C59D2CE00357DC2 /* Qlib */ = {
+			isa = PBXGroup;
+			children = (
+				07BC12BE1C59D44F00BC7F1C /* AvgTree.cpp */,
+				07BC12BF1C59D44F00BC7F1C /* AvgTree.h */,
+				07BC12C01C59D44F00BC7F1C /* basic_option.h */,
+				07BC12C11C59D44F00BC7F1C /* BBSRTree.cpp */,
+				07BC12C21C59D44F00BC7F1C /* BBSRTree.h */,
+				07BC12C31C59D44F00BC7F1C /* BinomialBSTree.cpp */,
+				07BC12C41C59D44F00BC7F1C /* BinomialBSTree.h */,
+				07BC12C51C59D44F00BC7F1C /* BinomialTree.cpp */,
+				07BC12C61C59D44F00BC7F1C /* BinomialTree.h */,
+				07BC12C71C59D44F00BC7F1C /* BoxMuller.h */,
+				07BC12C81C59D44F00BC7F1C /* BS.cpp */,
+				07BC12C91C59D44F00BC7F1C /* BS.h */,
+				07BC12CA1C59D44F00BC7F1C /* cholesky.cpp */,
+				07BC12CB1C59D44F00BC7F1C /* cholesky.h */,
+				07BC12CC1C59D44F00BC7F1C /* cout_vector.h */,
+				07BC12CD1C59D44F00BC7F1C /* csv2vector.cpp */,
+				07BC12CE1C59D44F00BC7F1C /* csv2vector.h */,
+				07BC12CF1C59D44F00BC7F1C /* DiscreteDivdBT.cpp */,
+				07BC12D01C59D44F00BC7F1C /* DiscreteDivdBT.h */,
+				07BC12D11C59D44F00BC7F1C /* FDBSAmer.h */,
+				07BC12D21C59D44F00BC7F1C /* FDBSBarrier.h */,
+				07BC12D31C59D44F00BC7F1C /* FDBSEuro.h */,
+				07BC12D41C59D44F00BC7F1C /* FDHeatPDE.h */,
+				07BC12D51C59D44F00BC7F1C /* FDHeatPDEConstr.h */,
+				07BC12D61C59D44F00BC7F1C /* FDImpliedVol.h */,
+				07BC12D71C59D44F00BC7F1C /* inv_cdf_normal.h */,
+				07BC12D81C59D44F00BC7F1C /* iterative_solver.cpp */,
+				07BC12D91C59D44F00BC7F1C /* iterative_solver.h */,
+				07BC12DA1C59D44F00BC7F1C /* LinearCongRand.cpp */,
+				07BC12DB1C59D44F00BC7F1C /* LinearCongRand.h */,
+				07BC12DC1C59D44F00BC7F1C /* lu.cpp */,
+				07BC12DD1C59D44F00BC7F1C /* lu.h */,
+				07BC12DE1C59D44F00BC7F1C /* MCBarrier.h */,
+				07BC12DF1C59D44F00BC7F1C /* MCEuro.cpp */,
+				07BC12E01C59D44F00BC7F1C /* MCEuro.h */,
+				07BC12E11C59D44F00BC7F1C /* normal_distribution.h */,
+				07BC12E21C59D44F00BC7F1C /* Secant.h */,
+				07BC12E31C59D44F00BC7F1C /* simple_MCbasket_option.cpp */,
+				07BC12E41C59D44F00BC7F1C /* simple_MCbasket_option.h */,
+				07BC12E51C59D44F00BC7F1C /* TBSRTree.cpp */,
+				07BC12E61C59D44F00BC7F1C /* TBSRTree.h */,
+				07BC12E71C59D44F00BC7F1C /* test.cpp */,
+				07BC12E81C59D44F00BC7F1C /* TrinomialBSTree.cpp */,
+				07BC12E91C59D44F00BC7F1C /* TrinomialBSTree.h */,
+				07BC12EA1C59D44F00BC7F1C /* TrinomialTree.cpp */,
+				07BC12EB1C59D44F00BC7F1C /* TrinomialTree.h */,
+				07BC12EC1C59D44F00BC7F1C /* vec2csv.cpp */,
+				07BC12ED1C59D44F00BC7F1C /* vec2csv.h */,
+			);
+			path = Qlib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07A303521C59D2CE00357DC2 /* Qlib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07A3035A1C59D2CE00357DC2 /* Build configuration list for PBXNativeTarget "Qlib" */;
+			buildPhases = (
+				07A3034F1C59D2CE00357DC2 /* Sources */,
+				07A303501C59D2CE00357DC2 /* Frameworks */,
+				07A303511C59D2CE00357DC2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Qlib;
+			productName = Qlib;
+			productReference = 07A303531C59D2CE00357DC2 /* Qlib */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07A3034B1C59D2CE00357DC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = EricZ;
+				TargetAttributes = {
+					07A303521C59D2CE00357DC2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 07A3034E1C59D2CE00357DC2 /* Build configuration list for PBXProject "Qlib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07A3034A1C59D2CE00357DC2;
+			productRefGroup = 07A303541C59D2CE00357DC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07A303521C59D2CE00357DC2 /* Qlib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07A3034F1C59D2CE00357DC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07BC12F21C59D44F00BC7F1C /* BS.cpp in Sources */,
+				07BC12F31C59D44F00BC7F1C /* cholesky.cpp in Sources */,
+				07BC12F91C59D44F00BC7F1C /* MCEuro.cpp in Sources */,
+				07BC12F11C59D44F00BC7F1C /* BinomialTree.cpp in Sources */,
+				07BC12FF1C59D44F00BC7F1C /* vec2csv.cpp in Sources */,
+				07BC12FB1C59D44F00BC7F1C /* TBSRTree.cpp in Sources */,
+				07BC12F51C59D44F00BC7F1C /* DiscreteDivdBT.cpp in Sources */,
+				07BC12EF1C59D44F00BC7F1C /* BBSRTree.cpp in Sources */,
+				07BC12F81C59D44F00BC7F1C /* lu.cpp in Sources */,
+				07BC12FD1C59D44F00BC7F1C /* TrinomialBSTree.cpp in Sources */,
+				07BC12FC1C59D44F00BC7F1C /* test.cpp in Sources */,
+				07BC12FA1C59D44F00BC7F1C /* simple_MCbasket_option.cpp in Sources */,
+				07BC12F41C59D44F00BC7F1C /* csv2vector.cpp in Sources */,
+				07BC12F61C59D44F00BC7F1C /* iterative_solver.cpp in Sources */,
+				07BC12F01C59D44F00BC7F1C /* BinomialBSTree.cpp in Sources */,
+				07BC12F71C59D44F00BC7F1C /* LinearCongRand.cpp in Sources */,
+				07BC12FE1C59D44F00BC7F1C /* TrinomialTree.cpp in Sources */,
+				07BC12EE1C59D44F00BC7F1C /* AvgTree.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		07A303581C59D2CE00357DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/boost/1.58.0/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/boost/1.58.0/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		07A303591C59D2CE00357DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/boost/1.58.0/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/boost/1.58.0/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		07A3035B1C59D2CE00357DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07A3035C1C59D2CE00357DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07A3034E1C59D2CE00357DC2 /* Build configuration list for PBXProject "Qlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07A303581C59D2CE00357DC2 /* Debug */,
+				07A303591C59D2CE00357DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07A3035A1C59D2CE00357DC2 /* Build configuration list for PBXNativeTarget "Qlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07A3035B1C59D2CE00357DC2 /* Debug */,
+				07A3035C1C59D2CE00357DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07A3034B1C59D2CE00357DC2 /* Project object */;
+}
